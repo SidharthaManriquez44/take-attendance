@@ -1,0 +1,9 @@
+# requirements.txt
+
+# Interfaz gráfica estándar
+tk
+
+# Si usas PyInstaller para crear ejecutables
+pyinstaller>=5.0
+
+
