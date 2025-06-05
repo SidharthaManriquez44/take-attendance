@@ -69,7 +69,7 @@ python main.py
 
 ## 🚀 Getting Started
 
-1. Download the `.exe` file from [TakeAttendance.exe](dist/TakeAttendance.exe).
+1. Download the `.exe` file from [TakeAttendance.exe](https://github.com/SidharthaManriquez44/take-attendance/releases/tag/v1.0.0).
 2. Run the executable — no need to install Python.
 3. Upload your custom student list as a CSV file.
 
