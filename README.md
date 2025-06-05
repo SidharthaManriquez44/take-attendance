@@ -1,4 +1,6 @@
 # 🎒 Take Attendance
+[![Python CI](https://github.com/SidharthaManriquez44/take-attendance/actions/workflows/python-ci.yml/badge.svg)](https://github.com/SidharthaManriquez44/take-attendance/actions/workflows/python-ci.yml)
+[![codecov](https://codecov.io/github/SidharthaManriquez44/take-attendance/graph/badge.svg?token=UD79HYXJHW)](https://codecov.io/github/SidharthaManriquez44/take-attendance)
 
 A simple tool to help elementary school teachers organize their student lists, take attendance quickly, and assign classroom seating or teams — all in a fun and efficient way!
 
