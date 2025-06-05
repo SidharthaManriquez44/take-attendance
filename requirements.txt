@@ -1,9 +1,10 @@
 # requirements.txt
 
-# Interfaz gráfica estándar
+# Standard graphical interface
 tk
 
-# Si usas PyInstaller para crear ejecutables
+# PyInstaller to create executables
 pyinstaller>=5.0
 
-
+# Test
+pytest~=8.4.0

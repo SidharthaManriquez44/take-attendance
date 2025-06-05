@@ -13,6 +13,8 @@ pip-selfcheck.json
 # Archivos de configuración de PyCharm
 .idea/
 *.iml
+.coverage
+.iml
 
 #VSCode Configuration
 .vscode/
