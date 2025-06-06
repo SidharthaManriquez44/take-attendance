@@ -2,13 +2,14 @@ from src.attendance.seat_assigner import SeatAssigner
 from src.utils.number_to_letter import number_to_letter
 import pytest
 
-# Test 1: 3x2 = 6 seats are generated correctly
+
 @pytest.fixture
 def base_seats():
     assignation_of_seats = SeatAssigner(3, 2)
     assignation_of_seats.reset()
     return assignation_of_seats
 
+# Test 1: 3x2 = 6 seats are generated correctly
 def test_generate_seats(base_seats):
     seats = base_seats.generate_seats()
     assert len(seats) == 6

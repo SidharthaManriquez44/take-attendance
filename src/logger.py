@@ -1,5 +1,5 @@
 import logging
-import os
+import os, sys
 
 # Standard Format
 formatter = logging.Formatter('%(asctime)s - [%(levelname)s] - %(message)s')
@@ -8,8 +8,8 @@ formatter = logging.Formatter('%(asctime)s - [%(levelname)s] - %(message)s')
 os.makedirs("logs", exist_ok=True)
 
 # Create logger
-logger = logging.getLogger("investment")
-logger.setLevel(logging.DEBUG)  # Capture all levels
+logger = logging.getLogger("myapp")
+logger.setLevel(logging.DEBUG)
 
 # Handler for general logs (info, warning, etc.)
 info_handler = logging.FileHandler('logs/app.log')
@@ -22,12 +22,8 @@ error_handler.setLevel(logging.ERROR)
 error_handler.setFormatter(formatter)
 
 # Handler in Terminal
-console_handler = logging.StreamHandler()
+console_handler = logging.StreamHandler(sys.stderr)
 console_handler.setFormatter(formatter)
-
-# Principal Logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 # Avoid Duplicates
 if not logger.handlers:
